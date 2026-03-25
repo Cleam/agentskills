@@ -260,7 +260,7 @@ Frontmatter 之后的 Markdown 正文是 Agent 执行任务时的指令。虽然
 
 在 SKILL.md 中引用其他文件时，使用**相对于 Skill 根目录的路径**：
 
-```markdown
+````markdown
 ## 可用脚本
 
 - `scripts/extract.py` — 提取数据
@@ -276,7 +276,7 @@ Frontmatter 之后的 Markdown 正文是 Agent 执行任务时的指令。虽然
    ```bash
    python3 scripts/extract.py input.pdf
    ```
-```
+````
 
 ### 正文长度建议
 
@@ -355,7 +355,7 @@ Greet the user warmly and ask how you can help them today.
 
 ### 完整示例
 
-```markdown
+````markdown
 ---
 name: pdf-processing
 description: >
@@ -399,7 +399,7 @@ with pdfplumber.open("file.pdf") as pdf:
 - Some PDFs are scanned images, not text. Use OCR for these.
 - Password-protected PDFs need the password before processing.
 - Large PDFs (>100 pages) should be processed in chunks.
-```
+````
 
 ## 3.9 本章小结
 
