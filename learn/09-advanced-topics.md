@@ -377,7 +377,7 @@ print(json.dumps({"result": "success", "count": 42}))
 print("Processing 50%...", file=sys.stderr)
 ```
 
-### 预控制大小输出
+### 控制输出大小
 
 ```
 Agent 的上下文窗口有限（通常 10-30K 字符截断）。
