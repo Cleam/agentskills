@@ -311,25 +311,25 @@ description: >
 ```mermaid
 mindmap
   root((核心概念))
-    渐进式披露
+    topic)渐进式披露(
       三层加载
       按需获取
       节省上下文
-    SKILL.md 格式
+    topic)SKILL.md 格式(
       YAML Frontmatter
       Markdown Body
       两部分结构
-    目录结构
+    topic)目录结构(
       SKILL.md 必需
       scripts 可选
       references 可选
       assets 可选
-    命名规则
+    topic)命名规则(
       kebab-case
       全小写
       匹配目录名
       支持 Unicode
-    描述字段
+    topic)描述字段(
       触发依据
       关注意图
       包含关键词
