@@ -12,17 +12,17 @@
 
 ```mermaid
 graph TB
-    subgraph "第一层：目录<br/>（~100 tokens/skill）"
+    subgraph "第一层：目录（~100 tokens/skill）"
         A["name: pdf-processing<br/>description: 处理 PDF 文件..."]
         B["name: data-analysis<br/>description: 分析数据集..."]
         C["name: code-review<br/>description: 代码审查..."]
     end
 
-    subgraph "第二层：指令<br/>（< 5000 tokens）"
+    subgraph "第二层：指令（< 5000 tokens）"
         D["SKILL.md 完整内容<br/>包含步骤、示例、注意事项"]
     end
 
-    subgraph "第三层：资源<br/>（按需加载）"
+    subgraph "第三层：资源（按需加载）"
         E["scripts/extract.py"]
         F["references/api-guide.md"]
         G["assets/template.json"]
